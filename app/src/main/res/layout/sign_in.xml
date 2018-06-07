@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBF00">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="회원 가입"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/ID_Input"
+        android:layout_centerHorizontal="true"
+        android:hint="아이디 입력"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/checkID"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignEnd="@+id/PW_Input"
+        android:layout_alignRight="@+id/PW_Input"
+        android:layout_below="@+id/ID_Input"
+        android:text="중복확인"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/PW_Input"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/REPW_Input"
+        android:layout_alignStart="@+id/REPW_Input"
+        android:layout_below="@+id/checkID"
+        android:layout_marginTop="24dp"
+        android:hint="비밀번호 입력" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/REPW_Input"
+        android:layout_centerHorizontal="true"
+        android:hint="비밀번호 입력 확인"
+        android:layout_below="@id/PW_Input"/>
+
+    <EditText
+        android:id="@+id/Email_Input"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/REPW_Input"
+        android:layout_alignStart="@+id/REPW_Input"
+        android:layout_below="@+id/REPW_Input"
+        android:layout_marginTop="24dp"
+        android:hint="이메일 입력" />
+
+
+    <Button
+        android:id="@+id/signinBtn"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/Email_Input"
+        android:layout_marginTop="50dp"
+        android:layout_toLeftOf="@+id/CancelBtn"
+        android:layout_toStartOf="@+id/CancelBtn"
+        android:text="회원가입"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="취소"
+        android:textColor="#000000"
+        android:id="@+id/CancelBtn"
+        android:textAllCaps="false"
+        android:layout_alignTop="@+id/signinBtn"
+        android:layout_alignEnd="@+id/REPW_Input"
+        android:layout_alignRight="@+id/REPW_Input"/>
+
+
+
+</RelativeLayout>
