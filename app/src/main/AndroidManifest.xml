@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".sign_inActivity" android:label="sign_in"/>
+        <activity android:name=".RoomListActivity" android:label="RoomList"/>
     </application>
 
 </manifest>

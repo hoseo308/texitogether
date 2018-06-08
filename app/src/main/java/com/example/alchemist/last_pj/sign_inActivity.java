@@ -17,7 +17,7 @@ public class sign_inActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sign_in);
 
-        btnCancel = (Button) findViewById(R.id.CancelBtn);
+        btnCancel = (Button)findViewById(R.id.CancelBtn);
         btnCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

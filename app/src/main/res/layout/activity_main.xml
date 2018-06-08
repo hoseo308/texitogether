@@ -33,6 +33,7 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/textID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="아이디      "
@@ -59,6 +60,7 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/textPW"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="비밀번호  "
@@ -81,7 +83,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-
         android:orientation="horizontal">
 
         <Button
