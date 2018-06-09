@@ -107,7 +107,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                         if(!task.isSuccessful()){
                             Toast.makeText(MainActivity.this, "인증 실패", Toast.LENGTH_SHORT).show();
                         }else{
-                            startActivity(new Intent(MainActivity.this, MainActivity.class));
+                            Intent intent = new Intent(MainActivity.this, RoomListActivity.class);
+                            startActivity(intent);
+
+                            finish();
                         }
                     }
                 });
