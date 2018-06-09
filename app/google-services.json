@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "375210790617",
+    "firebase_url": "https://texitogether-a0531.firebaseio.com",
+    "project_id": "texitogether-a0531",
+    "storage_bucket": "texitogether-a0531.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375210790617:android:132a5a58b9034b72",
+        "android_client_info": {
+          "package_name": "com.example.alchemist.last_pj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375210790617-os64or8re5vrnjglqcm764iefmnnr37v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alchemist.last_pj",
+            "certificate_hash": "7264f7113fd4da80a2aee4ccc776fdcdb10e7b03"
+          }
+        },
+        {
+          "client_id": "375210790617-nrag2rttujhf3v024kc0isf1v5o9hsrg.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "375210790617-nrag2rttujhf3v024kc0isf1v5o9hsrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa2L_VNMrCsuWXe8e7St1l7RJxzioEB9I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375210790617-nrag2rttujhf3v024kc0isf1v5o9hsrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
